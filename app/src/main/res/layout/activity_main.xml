@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="23dp"
+        android:text="Play Music Services"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF5722"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btOn"
+        android:layout_width="113dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="87dp"
+        android:background="@drawable/back"
+        android:text="Mở"
+        android:textColor="#03A9F4"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btOff"
+        android:layout_width="114dp"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/btOn"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="-75dp"
+        android:text="Tắt"
+        android:background="@drawable/back"
+        android:textColor="#F30F0F" />
+
+    <Button
+        android:id="@+id/btTua"
+        android:layout_width="122dp"
+        android:layout_height="69dp"
+        android:layout_alignLeft="@+id/btOff"
+        android:background="@drawable/back"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btOff"
+        android:layout_marginEnd="143dp"
+        android:layout_marginLeft="-133dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="-149dp"
+        android:text="Pause"
+        android:textColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/btStart"
+        android:layout_width="131dp"
+        android:layout_height="65dp"
+        android:layout_alignLeft="@+id/btOff"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btOff"
+        android:layout_marginEnd="134dp"
+        android:layout_marginLeft="-132dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/back"
+        android:text="Continue"
+        android:textColor="#9C27B0" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="236dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="348dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="145dp"
+        app:srcCompat="@drawable/aa" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="365dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginStart="23dp"
+        app:srcCompat="@drawable/gd" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="379dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="253dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginStart="14dp"
+        android:gravity="center"
+        android:text="Welcoms to Vi MuSic"
+        android:textColor="#F44336" />
+
+</RelativeLayout>
